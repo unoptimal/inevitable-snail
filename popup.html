@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snail Control Panel</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            background-color: #F3F4F6;
+            color: #4B5563;
+        }
+
+        h1 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            margin-bottom: 5px;
+            font-size: 0.875em;
+            color: white;
+            background-color: #16b7ff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #12a7ec;
+        }
+
+        #status0, #status, #status05, #status1, #status2, #startTimestamp, #endTimestamp {
+            padding: 10px;
+            border: 1px solid #E5E7EB;
+            border-radius: 4px;
+            background-color: white;
+            font-size: 0.9em;
+         
+            color: #1F2937;
+        }
+        img {
+            margin-top:5px;
+            width:40%;
+            height: 40%;
+            display: block;
+            margin: auto;
+        }
+        #about {
+            text-align: center;
+            font-size: 0.875em;
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #about a{
+            color: #16b7ff;
+        }
+
+        #warning, #bsodLink{
+            font-size: 0.875em;
+            text-align: center;
+            margin-bottom: -10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Snail is Inevitable</h1>
+    <p id="about">by <a href="https://unoptimal.com">unoptimal</a></p>
+    <a href="https://slay-the-spire.fandom.com/wiki/Time_Eater" id="img"><img src="time.png" alt=""></a>
+    
+
+    
+    <p id="status0"></p>
+    <p id="status"></p>
+    <p id="status05"></p>
+    <p id="status1"></p>
+    <p id="status2"></p>
+    
+    <p id="startTimestamp"></p>
+    <p id="endTimestamp"></p>
+    <button id="toggleVisibility">Toggle Visibility</button>
+    <button id="startButton">Start</button>
+    <p id="bsodLink"><a href="bsod/bsod.html">see the end</a></p>
+    <p id="warning"></p>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
+
+
+<!-- user customization -->
+
+    <!-- <button id="toggleButton">Start/Stop</button> -->
+    <!-- <button id="visibilityButton">Show/Hide</button> -->
+
+    <!-- <label for="snailSpeed">Step Frequency (minutes):</label> -->
+    <!-- <input type="number" id="snailSpeed" name="snailSpeed" min="0" step="0.01"> -->
+
+    <!-- <label for="snailStep">Step Size:</label> -->
+    <!-- <input type="number" id="snailStep" name="snailStep" min="0"> -->
+    
+    <!-- <button id="applyChanges">Apply Changes</button> -->
+
+    <!-- <button id="resetButton">Reset to Defaults</button> -->
