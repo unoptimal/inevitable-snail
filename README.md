@@ -1,5 +1,7 @@
 # Snail is Inevitable
 
+![image](initial.png)
+
 This is a Chrome Extension that places a (hidden) snail somewhere on your browser page and slowly moves towards  your cursor. It is inspired by the [Immortal Snail thought experiment](https://knowyourmeme.com/memes/immortal-snail) (and its [variations](https://twitter.com/InternetH0F/status/1675522280087011329)). 
 
 This extension has its fair share of bugs and interactions with various types of web pages that can cause it the snail to behave improperly. Let me know if you find any at [unoptimalblogs@gmail.com](mailto:unoptimalblogs@gmail.com)
